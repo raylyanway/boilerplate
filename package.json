@@ -4,7 +4,8 @@
   "description": "refresh knowledge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "NODE_ENV='production' webpack",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,11 @@
   "devDependencies": {
     "babel-loader": "^8.2.2",
     "css-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.2.0",
     "style-loader": "^2.0.0",
     "svg-inline-loader": "^0.8.2",
     "webpack": "^5.24.2",
-    "webpack-cli": "^4.5.0"
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
