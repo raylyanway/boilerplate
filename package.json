@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/raylyanway/boilerplate#readme",
   "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.0",
+    "style-loader": "^2.0.0",
+    "svg-inline-loader": "^0.8.2",
     "webpack": "^5.24.2",
     "webpack-cli": "^4.5.0"
   }
